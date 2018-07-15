@@ -33,17 +33,14 @@ npm => Node Packaging Manager
 
 
 # Project setup
-source: (codementor)[https://www.codementor.io/iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o]
+source: [codementor](https://www.codementor.io/iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o)
 ## Initializing your package.json file
 1. Go to your terminal and create a new folder `mkdir <foldername>`
 2. Navigate to your folder `cd <foldername>`
-3. Initialize your project as an npm package `npm init -y`
+3. Initialize your project as an npm package `npm init --yes` //With the yes flag the information extracted from the current directory will be used to create a package.json file
 ### What is a package.json file?
 - Lists the packages that your project depends on.
 - Allows you to specify the versions of a package that your project can use using semantic versioning rules.
 - Makes your build reproducible, and therefore much easier to share with other developers.
-source: (npm docs)[https://docs.npmjs.com/getting-started/using-a-package.json]
 
-
-
-Express + ES6
+source: [npm docs](https://docs.npmjs.com/getting-started/using-a-package.json)
