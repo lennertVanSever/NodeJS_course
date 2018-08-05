@@ -38,7 +38,8 @@ Based on: [codementor](https://www.codementor.io/iykyvic/writing-your-nodejs-app
 1. Go to your terminal and create a new folder `mkdir <foldername>`
 2. Navigate to your folder `cd <foldername>`
 3. Initialize your project as an npm package `npm init --yes` //With the yes flag the information extracted from the current directory will be used to create a package.json file
-4. For fun -> print "hello world" in your terminal through the `npm run <>` command
+4. Open the directory you just created in your favorite code editor
+5. For fun -> print "hello world" in your terminal through the `npm run <>` command
 ### What is a package.json file?
 source: [npm docs](https://docs.npmjs.com/getting-started/using-a-package.json)
 - Lists the packages that your project depends on.
@@ -53,7 +54,7 @@ source: [npm docs](https://docs.npmjs.com/getting-started/using-a-package.json)
 ## Create your app entry point
 1. Initialize an empty file called index.js
 
-## Install an other dependency
+## Install other dependencies
 1. Install [nodemon](https://www.npmjs.com/package/nodemon) as a dev dependency `npm install --save-dev nodemon`
 2. Run the following command `npm install babel-preset-env babel-cli`
 
@@ -64,4 +65,7 @@ source: [npm docs](https://docs.npmjs.com/getting-started/using-a-package.json)
   "presets": ["env"]
 }
 ```
-2. In package.json add this to scipts: `"dev": "nodemon --exec babel-node index.js"`
+2. In package.json add this to scipts: `"start": "nodemon --exec babel-node index.js"`
+3. Now you can run in your terminal: `npm start`
+
+# Server setup
