@@ -3,19 +3,19 @@ _Everyone says one by one his name and favorite website_
 
 We will explain what a server is, based on the favorite websites and why it is important.
 
-# What is a server?
+## What is a server?
 
-# What is Node.js?
+## What is Node.js?
 _Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine._
 
 JavaScript runtime => Running JS outside of the browser
 Compiles to machine code which makes it very fast
 
-# Installing Node.js
+## Installing Node.js
 Go to the [NodeJS installer page](https://nodejs.org/en/download/current/) and install the *latest* version of Node.JS.
 
 
-# Run following code in terminal
+### Run following code in terminal
 ```
 Node
 
@@ -28,7 +28,7 @@ console.log(a + b);
 process.exit(0);
 ```
 
-# What is npm?
+## What is npm?
 npm => Node Packaging Manager
 
 
@@ -52,14 +52,14 @@ source: [npm docs](https://docs.npmjs.com/getting-started/using-a-package.json)
 3. Create .gitignore file with the following content `node_modules/`
 
 ## Create your app entry point
-1. Initialize an empty file called index.js
+1. Initialize an empty file called index.js in the project root folder
 
 ## Install other dependencies
 1. Install [nodemon](https://www.npmjs.com/package/nodemon) as a dev dependency `npm install --save-dev nodemon`
 2. Run the following command `npm install babel-preset-env babel-cli`
 
 ## Finalise the setup
-1. Create a .babelrc config in your project root. Insert the following
+1. Create a .babelrc config in your project root folder. Insert the following in the file you just created
 ```
 {
   "presets": ["env"]
@@ -69,3 +69,18 @@ source: [npm docs](https://docs.npmjs.com/getting-started/using-a-package.json)
 3. Now you can run in your terminal: `npm start`
 
 # Server setup
+In index.js
+```
+import express from 'express';
+
+const PORT = 4000;
+const server = express();
+
+server.set('port', PORT);
+
+server.get('/', (request, response) => {
+  response.send("App is running");
+}).listen(server.get('port'), () => {
+  console.log('Server is running on port number', server.get('port'));
+});
+```
