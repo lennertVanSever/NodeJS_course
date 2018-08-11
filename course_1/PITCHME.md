@@ -3,7 +3,9 @@ _Tell me your favourite website and name!_
 ## What is a server?
 ![server - client communication](http://computernetworkingsimplified.in/wp-content/uploads/clientserver.jpg)
 
+Note:
 [More info](https://www.lifewire.com/servers-in-computer-networking-817380)
+A server is a computer program or a device that provides functionality for other programs or devices, called "clients".
 ---
 ## What is NodeJS?
 _Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine._
