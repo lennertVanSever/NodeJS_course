@@ -10,3 +10,4 @@ _Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine._
 
 - JavaScript runtime => Running JS outside of the browser
 - Chrome's v8 => compiles JavaScript directly to native machine code before executing it
+- NodeJS is also [non-blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/).
