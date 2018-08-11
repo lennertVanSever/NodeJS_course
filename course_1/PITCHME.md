@@ -27,5 +27,6 @@ node
 - Type some JavaScript in the file
 
 ```
-node index.js (in terminal)
+node index.js
 ```
+- File is being run!
