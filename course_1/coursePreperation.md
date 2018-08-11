@@ -12,7 +12,7 @@ _Everyone says one by one his name and favorite website_
 We will explain what a server is, based on the favorite websites and why it is important.
 
 ## What is a server?
-
+A server is a computer program or a device that provides functionality for other programs or devices, called "clients".
 
 ## What is Node.js?
 _Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine._
