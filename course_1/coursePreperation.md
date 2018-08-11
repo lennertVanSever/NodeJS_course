@@ -109,13 +109,17 @@ Let's send a success and an error
 https://www.w3schools.com/js/js_es6.asp
 
 # Let's have some fun!
-1. Print "hello world" on the /hello-world route
-2. Print a variable specified in a route by the user (google is your friend!)
-3. Print the desired result of the following route: `/<number>/plus/<number>/is`
-4. Convert the result of exercise 3 into cardinal numbers. For example 3 -> three, 6 -> six (use a npm package)
+1. Print a variable specified in a route by the user (google is your friend!)
+2. Print the desired result of the following route: `/<number>/plus/<number>/is`
+3. Convert the result of exercise 3 into cardinal numbers. For example 3 -> three, 6 -> six (use a npm package)
+4. Print an error
 5. Send an email to an address via the following route `/sendmail/<to>`
 
 Read about ES6
 
 
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+Read more about servers http://ptgmedia.pearsoncmg.com/images/0130225347/samplechapter/0130225347.pdf
+Revise ES6 https://medium.freecodecamp.org/want-to-learn-es6-take-this-free-23-part-course-and-become-a-javascript-ninja-55002db1ff74
+For the best: https://github.com/getify/You-Dont-Know-JS
