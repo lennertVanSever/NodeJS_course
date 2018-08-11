@@ -16,8 +16,11 @@ _Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine._
 ---
 Go to the [NodeJS installer page](https://nodejs.org/en/download/current/) and install the *latest* version of Node.JS.
 ---
-## Open your terminal and type
-```
-node
-```
-now write some JavaScript
+- Open your terminal
+- Write `node`
+- Type some JavaScript
+---
+- Create a new repo
+- Create a file named "index.js"
+- Type some JavaScript in the file
+- Run `node index.js`
