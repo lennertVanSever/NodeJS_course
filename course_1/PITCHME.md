@@ -25,8 +25,7 @@ node
 - Create a new repo
 - Create a file named "index.js"
 - Type some JavaScript in the file
-
+- Go to the repo via your terminal 
 ```
 node index.js
 ```
-- File is being run!
