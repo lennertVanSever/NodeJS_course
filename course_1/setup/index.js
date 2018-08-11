@@ -1,18 +1,10 @@
-console.log("HELLO WORLD!!!");
+const express = require('express')
+const app = express();
 
-const name = "Mohammed"
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+});
 
-const attribute = "Awesome";
-
-console.log(name + " is " + attribute); //Normal JavaScript
-console.log(`${name} is ${attribute}`); //ES6
-//Mohammed is awesome
-
-const student = {
-  name,
-  gender: "male",
-  age: 23
-}
-const { gender, age } = student;
-
-console.log({ gender, age, name });
+app.listen(8000, () => {
+  console.log('Example app listening on port 8000!')
+});
