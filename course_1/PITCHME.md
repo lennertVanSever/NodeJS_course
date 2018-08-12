@@ -4,6 +4,7 @@ _Tell me your favourite website and name!_
 ![server - client communication](http://computernetworkingsimplified.in/wp-content/uploads/clientserver.jpg)
 
 [More info](https://www.lifewire.com/servers-in-computer-networking-817380)
+
 Note:
 A server is a computer program or a device that provides functionality for other programs or devices, called "clients".
 ---
